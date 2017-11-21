@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpDoc.Test.TournamentResultsAnalyser", "RpDoc.Test.TournamentResultsAnalyser\RpDoc.Test.TournamentResultsAnalyser.csproj", "{7127095B-14DA-4E67-AC74-B9364E2A9C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpDoc.TournamentResultsAnalyser.Lib", "RpDoc.TournamentResultsAnalyser.Lib\RpDoc.TournamentResultsAnalyser.Lib.csproj", "{0EE75B96-BC11-4621-B4AD-E7962BE0304C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpDoc.TournamentResultsAnalyser.UI", "RpDoc.TournamentResultsAnalyser.UI\RpDoc.TournamentResultsAnalyser.UI.csproj", "{B50F0163-BEF7-4044-BA70-AC002CFD4BA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{8610B142-ABEA-42C9-BB74-A46D1922DCE9}"
+	ProjectSection(SolutionItems) = preProject
+		Samples\TestSocerResults.txt = Samples\TestSocerResults.txt
+		Samples\TestSocerResultsExample_1.txt = Samples\TestSocerResultsExample_1.txt
+		Samples\TestSocerResultsExample_2.txt = Samples\TestSocerResultsExample_2.txt
+		Samples\TestSocerResultsExample_3.txt = Samples\TestSocerResultsExample_3.txt
+		Samples\TestSocerResultsWithError.txt = Samples\TestSocerResultsWithError.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7127095B-14DA-4E67-AC74-B9364E2A9C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7127095B-14DA-4E67-AC74-B9364E2A9C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7127095B-14DA-4E67-AC74-B9364E2A9C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7127095B-14DA-4E67-AC74-B9364E2A9C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE75B96-BC11-4621-B4AD-E7962BE0304C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE75B96-BC11-4621-B4AD-E7962BE0304C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE75B96-BC11-4621-B4AD-E7962BE0304C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE75B96-BC11-4621-B4AD-E7962BE0304C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50F0163-BEF7-4044-BA70-AC002CFD4BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50F0163-BEF7-4044-BA70-AC002CFD4BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50F0163-BEF7-4044-BA70-AC002CFD4BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50F0163-BEF7-4044-BA70-AC002CFD4BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
